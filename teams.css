@@ -77,3 +77,46 @@ nav a:hover {
 	color: #000080;
 	opacity: 1;
 }
+
+th, td {
+	border: 1px solid black;
+}
+
+td {
+	background-color: #90EE90;
+	padding: 10px;
+}
+
+th {
+	background-color: #556B2F;
+	color: #FFFFFF;
+	padding: 10px;
+	border-bottom: 2px solid lime;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+tr>:nth-child(1) {
+	text-align: left;
+}
+tr>:nth-child(2) {
+	text-align: center;
+}
+tr>:nth-child(3) {
+	text-align: center;
+}
+
+
+table {
+	margin: 0 auto;
+}
+
+
+tr:not(:first-child) {
+	opacity: 0.7;
+}
+
+
+tr:not(:first-child):hover {
+	opacity:1;
+}
